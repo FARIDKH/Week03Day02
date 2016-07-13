@@ -1,0 +1,31 @@
+Duzgun ve oxunaqli CSS kodu yazmaq ucun lazim olabilecek 10 qayda :
+1.Resetden istifade etmek : 
+	Internetden her hansisa bir css ucun reset filesi yukleme bizi artig vaxt itkisinden qacindirir. Lakin hazir reset.css e bele oz 
+	duzelislerimizi etmek daha avantajli olar.Meselen her defe margin:0 padding:0 yazmaqdansa reset.css kimi fileleri
+	istifade etmek daha serfelidi
+2.Bitirdikden sonra comment yazmaq :
+	Project ustunde yeniden isleyessizse bitirdikden sonra comment kimi tarixi , ad soyadi ve hetta filede istifade olunmus 
+	renglerin hex codlarinin yaxin oldugu rengleri , 4C80FF === lightblue bildirmek fileni istifade eden 
+	basqa bir adamin isini daha da asanlasdirmis olar.
+3.DRY(Don't repeat yourself):
+	DRY CSS de vaxt qazanmaq ucun en yaxsi prinsiplerden biridir. "," duzgun istifadesi buna misal ola biler.
+4.Class ve ID :
+	Class ve IDden hedden artiq istifade etmek evezine nth-childdan istifade etmekle ya da .main div div kimi yazmaqla vaxtimiza
+	qenaet etmis olariq. Istifade eden zaman da onlara menali  ad vermek vacibdir.
+5.Yerli yerinde istifade:
+	Eger istediyin yerdemargin istediyin yerdeposition versiz veya harda display harda float istifad? etmeli oldugunuzu
+	dogru bilmesez gedisatda eseblesilecek yerlerle qarsilasassiz.
+6.Eger CSS faylinda her hansisa sehviniz varsa va tapa bilmirsinizse (mes. herf sehvi , srift sehvi) http://jigsaw.w3.org/css-validator .
+7.Property leri verende kor-tebii de olsa elifba sirasina riayet elemek axtardiginizi tapmagda komek ede biler.
+8.Eger property 3 ve 3 den azd?irsa bir line de yazmaq meslehetlidir.Coxdursa absaz-absaz.
+9.Neyin neye aid oldugunu bildirmek en vacib prinsiplerden biridir. Bunu etmedikde eseblesec?ek yerler olacaq.HTML Beautify bunun
+	ucun yaxsi numunedir.
+10.-webkit , -moz  istifadesi browser problemini aradan qaldirmaq ucun vasitedir ve istifade olunmalidir.
+Font Awesome:
+	Font Awesome icon yaratmaq ucun bir istifadedir. Xususi sriftle yazilmis her biri bir herfden ibaret olan bu iconlardan istifade 
+etmek ucun saytin girisindeki file yuklenir, filenin icindeki css fayli ve font fayli istifade etdiyimiz foldere paste olunur. Daha sonra htmlde
+<link> tagi ile font-awesome.css ve ya font-awesome-min.css i elaqelendiririk.
+Az sriftlerini destekley?en 10 eded font ailesinin adini ve istifade qaydas:
+	Fontlar.info sayt?ndan font yuklemekle Az srifti elde etmek olar. Istifade etmek ucun "Endir"e click edib fayli yukluyuruk. Sonra
+@font-face istifade ederek (src:url(faylin.linki)) fontu isledirik.
+Fontlar:Abel Pro Acidic Agency Alboroto Aldo Algerian Allegro Scropt AlwaysRadio Amydor Antonio
